@@ -59,7 +59,7 @@ public class LoggingPlatform {
 		if (e == null) {
 			Logger.error(msg);
 		} else {
-			Logger.error(msg, e);
+			Logger.error(e, e.getMessage());
 		}
 
 	}
